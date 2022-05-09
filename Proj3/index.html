@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <title>Movie Hangman</title>
+    <link rel="stylesheet" href="hangmanStyle.css">
+    <link rel="shortcut icon" 
+          href="https://mitchum.blog/wp-content/uploads/2019/05/favicon.png" />
+  </head>
+  <body>
+    <main>
+      <h1>Movie Hangman</h1>
+      <h5><a href="https://mitchum.blog/how-to-build-hangman-with-javascript/">Back To Blog</a></h5>
+      <div id="gallows">
+        <img style="padding-left: 70px" id="hangman" src="hangman0.png">
+      </div>
+
+      <div id="word"></div>
+      <br>
+      <div id="controls">
+        <input type="text" id="guessBox">
+        <button id="guessWordButton" class="button" onclick="guessWord( game )">Guess Word</button>
+        <button id="newGameButton" class="button" onclick="newGame();">New Game</button>
+        <br>
+        <br>
+        <form action="https://mitchum.blog/sorry-for-offending-subscribe/">
+          <button class="button">How Dare You Make Light Of Capital Punishment</button>
+        </form>
+      </div>
+      <br>
+      <div id="guesses"></div>
+    </main>   
+   <script src="hangmanScript.js"></script>
+  </body>
+  
+  <div id="watermark">
+    <img src="tumbleWeed.png" alt="tumbleWD" onContextMenu="return false;"/>
+        </div>
+
+        <div id="watermark2">
+            Disclaimer: Not related to western movies               
+             </div>
+
+        <!--Notes-->
+
+        <!-- -Adjusted webpage BG
+        -Adjusted non-input buttons & BG
+        -#guessBox, added BG color
+        -added Tumbleweed
+        -Changed font
+        -Changed image to watermark because original code was 
+        stopping user from seeing hangman progress due to padding and stuff
+        -users might be confused as to whether movies or western or not
+        -3rd shadow property represents blur
+        -Not sure how to adjust tiny black background on user input border
+        -adjusted font for watermark2
+        -->
+
+
+</html>

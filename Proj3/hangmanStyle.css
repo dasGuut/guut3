@@ -1,0 +1,125 @@
+body {
+    background: #D9B08C;
+  }
+  
+  main {
+    max-width: 610px;
+    margin: auto;
+  }
+  
+  h1, h5 {
+    text-align: center;
+    color: rgb(255, 255, 153);
+  }
+  
+  .win {
+    color: black;
+    background-color: green;
+    box-shadow: 10px 5px 100px green;
+    
+  }
+  
+  .loss {
+    color: black;
+    /*background-color: black;*/
+    box-shadow: 10px 5px 100px red;
+  }
+  
+  #word {
+    letter-spacing: 10px;
+    text-align: center;
+    font-size: 24pt;
+    color: rgb(255, 255, 153);
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+  
+  #guesses {
+    text-align: center;
+    font-size: 16pt;
+    color: rgb(255, 255, 153);
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+  
+  .guess {
+    padding: 10px;
+    display: inline-block;
+    border: 2px solid rgb(255, 255, 153);
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  @media only screen and (min-device-width: 375px ) and (max-device-width: 667px) {
+      #guesses {
+      text-align: center;
+      font-size: 24pt;
+      color: rgb(255, 255, 153);
+      font-weight: bold;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+  
+    .guess {
+      padding: 30px;
+      display: inline-block;
+      border: 2px solid #D1E8E2;
+      border-radius: 10px;
+      margin: 10px;
+      cursor: pointer;
+    }
+  }
+  
+  #guessBox {
+      height: 60px;
+      border-radius: 10px;
+      padding-top: 5px;
+      font-size: 18pt;
+      width: 200px;
+      padding-left: 10px;
+      background-color: #D9B08C;
+      
+  }
+  
+  /* Buttons */
+  .button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #666;
+    background-color: #D9B08C;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #ffff59}
+  
+  .button:active {
+    background-color: #D9B08C;
+    /*box-shadow: 0 5px #666;*/
+    transform: translateY(4px);
+  }
+
+                                                 #watermark /* tumble*/
+                                                    {
+                                                        position: fixed; bottom: 0; right: 0;
+                                                        opacity:0.4; font-weight:700;
+                                        
+                                                            }
+
+                                                            #watermark2 /* warning*/
+                                                            {
+                                                                position: fixed; top: 0;
+                                                                opacity:0.4; font-weight:900;
+                                                                font-style: italic;
+                                                                color: black;
+                                                                font-size: xx-large;
+                                                
+                                                                    }
+
+                                                          
